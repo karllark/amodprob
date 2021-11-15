@@ -1,10 +1,28 @@
 Astropy Models Probability Extension
 ------------------------------------
 
+Provide an extension to
+`astropy models <https://docs.astropy.org/en/stable/modeling/index.html>`_
+that supports a probabilistic view of models (likelihood and priors)
+for both existing optimizers to get the best fit (often called minimizers)
+and samplers to explore the posterior probability around the best fit
+(e.g., Monte Carlo Markov Chain).
+
 .. image:: http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat
     :target: http://www.astropy.org
     :alt: Powered by Astropy Badge
 
+.. image:: http://readthedocs.org/projects/amodprob/badge/?version=latest
+   :target: http://amodprob.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+.. image:: https://github.com/karllark/amodprob/workflows/CI%20Tests/badge.svg
+   :target: https://github.com/karllark/amodprob/actions/
+   :alt: Test Status
+
+.. image:: https://codecov.io/gh/karllark/amodprob/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/karllark/amodprob
+   :alt: Test Coverage Status
 
 License
 -------
